@@ -1,0 +1,48 @@
+{
+  "storage": [
+    {
+      "astId": 4289,
+      "contract": "contracts/lending/ATokensAndRatesHelper.sol:ATokensAndRatesHelper",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_address"
+    },
+    {
+      "astId": 20505,
+      "contract": "contracts/lending/ATokensAndRatesHelper.sol:ATokensAndRatesHelper",
+      "label": "pool",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_address_payable"
+    },
+    {
+      "astId": 20507,
+      "contract": "contracts/lending/ATokensAndRatesHelper.sol:ATokensAndRatesHelper",
+      "label": "addressesProvider",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_address"
+    },
+    {
+      "astId": 20509,
+      "contract": "contracts/lending/ATokensAndRatesHelper.sol:ATokensAndRatesHelper",
+      "label": "poolConfigurator",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_address"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_address_payable": {
+      "encoding": "inplace",
+      "label": "address payable",
+      "numberOfBytes": "20"
+    }
+  }
+}

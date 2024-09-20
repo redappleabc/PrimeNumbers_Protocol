@@ -1,0 +1,40 @@
+{
+  "storage": [
+    {
+      "astId": 4289,
+      "contract": "contracts/lending/StableAndVariableTokensHelper.sol:StableAndVariableTokensHelper",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_address"
+    },
+    {
+      "astId": 21644,
+      "contract": "contracts/lending/StableAndVariableTokensHelper.sol:StableAndVariableTokensHelper",
+      "label": "pool",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_address_payable"
+    },
+    {
+      "astId": 21646,
+      "contract": "contracts/lending/StableAndVariableTokensHelper.sol:StableAndVariableTokensHelper",
+      "label": "addressesProvider",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_address"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_address_payable": {
+      "encoding": "inplace",
+      "label": "address payable",
+      "numberOfBytes": "20"
+    }
+  }
+}

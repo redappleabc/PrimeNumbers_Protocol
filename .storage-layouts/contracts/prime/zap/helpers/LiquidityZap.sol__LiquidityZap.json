@@ -1,0 +1,160 @@
+{
+  "storage": [
+    {
+      "astId": 11663,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 11666,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 11733,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "______gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 11656,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 11878,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_address"
+    },
+    {
+      "astId": 11983,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 58162,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "token",
+      "offset": 0,
+      "slot": "151",
+      "type": "t_address"
+    },
+    {
+      "astId": 58164,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "tokenWETHPair",
+      "offset": 0,
+      "slot": "152",
+      "type": "t_address"
+    },
+    {
+      "astId": 58167,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "weth",
+      "offset": 0,
+      "slot": "153",
+      "type": "t_contract(IWETH)19066"
+    },
+    {
+      "astId": 58169,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "initializedLiquidityZap",
+      "offset": 20,
+      "slot": "153",
+      "type": "t_bool"
+    },
+    {
+      "astId": 58171,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "poolHelper",
+      "offset": 0,
+      "slot": "154",
+      "type": "t_address"
+    },
+    {
+      "astId": 58178,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "acceptableRatio",
+      "offset": 0,
+      "slot": "155",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 58182,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "priceProvider",
+      "offset": 0,
+      "slot": "156",
+      "type": "t_contract(IPriceProvider)18252"
+    },
+    {
+      "astId": 58186,
+      "contract": "contracts/prime/zap/helpers/LiquidityZap.sol:LiquidityZap",
+      "label": "ethOracle",
+      "offset": 0,
+      "slot": "157",
+      "type": "t_contract(IChainlinkAdapter)16228"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IChainlinkAdapter)16228": {
+      "encoding": "inplace",
+      "label": "contract IChainlinkAdapter",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IPriceProvider)18252": {
+      "encoding": "inplace",
+      "label": "contract IPriceProvider",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IWETH)19066": {
+      "encoding": "inplace",
+      "label": "contract IWETH",
+      "numberOfBytes": "20"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    }
+  }
+}

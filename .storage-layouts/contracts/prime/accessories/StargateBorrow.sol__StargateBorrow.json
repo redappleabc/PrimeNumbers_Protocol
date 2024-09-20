@@ -1,0 +1,169 @@
+{
+  "storage": [
+    {
+      "astId": 3620,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "_initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_uint8"
+    },
+    {
+      "astId": 3623,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "_initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 4280,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 3492,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_address"
+    },
+    {
+      "astId": 3612,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "52",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 42317,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "router",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_contract(IStargateRouter)18621"
+    },
+    {
+      "astId": 42321,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "routerETH",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_contract(IRouterETH)18328"
+    },
+    {
+      "astId": 42325,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "lendingPool",
+      "offset": 0,
+      "slot": "103",
+      "type": "t_contract(ILendingPool)17095"
+    },
+    {
+      "astId": 42328,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "weth",
+      "offset": 0,
+      "slot": "104",
+      "type": "t_contract(IWETH)19066"
+    },
+    {
+      "astId": 42336,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "poolIdPerChain",
+      "offset": 0,
+      "slot": "105",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 42339,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "daoTreasury",
+      "offset": 0,
+      "slot": "106",
+      "type": "t_address"
+    },
+    {
+      "astId": 42342,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "xChainBorrowFeePercent",
+      "offset": 0,
+      "slot": "107",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 42345,
+      "contract": "contracts/prime/accessories/StargateBorrow.sol:StargateBorrow",
+      "label": "maxSlippage",
+      "offset": 0,
+      "slot": "108",
+      "type": "t_uint256"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(ILendingPool)17095": {
+      "encoding": "inplace",
+      "label": "contract ILendingPool",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IRouterETH)18328": {
+      "encoding": "inplace",
+      "label": "contract IRouterETH",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IStargateRouter)18621": {
+      "encoding": "inplace",
+      "label": "contract IStargateRouter",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IWETH)19066": {
+      "encoding": "inplace",
+      "label": "contract IWETH",
+      "numberOfBytes": "20"
+    },
+    "t_mapping(t_address,t_uint256)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => uint256)",
+      "numberOfBytes": "32",
+      "value": "t_uint256"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}

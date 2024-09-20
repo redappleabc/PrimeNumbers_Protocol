@@ -1,0 +1,102 @@
+{
+  "storage": [
+    {
+      "astId": 11663,
+      "contract": "contracts/prime/oracles/PrimeChainlinkOracle.sol:PrimeChainlinkOracle",
+      "label": "initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 11666,
+      "contract": "contracts/prime/oracles/PrimeChainlinkOracle.sol:PrimeChainlinkOracle",
+      "label": "initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 11733,
+      "contract": "contracts/prime/oracles/PrimeChainlinkOracle.sol:PrimeChainlinkOracle",
+      "label": "______gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 11656,
+      "contract": "contracts/prime/oracles/PrimeChainlinkOracle.sol:PrimeChainlinkOracle",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 11878,
+      "contract": "contracts/prime/oracles/PrimeChainlinkOracle.sol:PrimeChainlinkOracle",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_address"
+    },
+    {
+      "astId": 11983,
+      "contract": "contracts/prime/oracles/PrimeChainlinkOracle.sol:PrimeChainlinkOracle",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 45531,
+      "contract": "contracts/prime/oracles/PrimeChainlinkOracle.sol:PrimeChainlinkOracle",
+      "label": "ethChainlinkAdapter",
+      "offset": 0,
+      "slot": "151",
+      "type": "t_contract(IChainlinkAdapter)16228"
+    },
+    {
+      "astId": 45535,
+      "contract": "contracts/prime/oracles/PrimeChainlinkOracle.sol:PrimeChainlinkOracle",
+      "label": "prntChainlinkAdapter",
+      "offset": 0,
+      "slot": "152",
+      "type": "t_contract(IChainlinkAdapter)16228"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IChainlinkAdapter)16228": {
+      "encoding": "inplace",
+      "label": "contract IChainlinkAdapter",
+      "numberOfBytes": "20"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "storage": [
+    {
+      "astId": 46492,
+      "contract": "contracts/prime/oracles/chainlink/UnvalidatedChainlinkAdapter.sol:UnvalidatedChainlinkAdapter",
+      "label": "chainlinkFeed",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_contract(AggregatorV3Interface)15726"
+    }
+  ],
+  "types": {
+    "t_contract(AggregatorV3Interface)15726": {
+      "encoding": "inplace",
+      "label": "contract AggregatorV3Interface",
+      "numberOfBytes": "20"
+    }
+  }
+}

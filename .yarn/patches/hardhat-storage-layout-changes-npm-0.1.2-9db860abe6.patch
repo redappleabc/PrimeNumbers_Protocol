@@ -1,0 +1,13 @@
+diff --git a/dist/src/tasks/storage-layout.js b/dist/src/tasks/storage-layout.js
+index 6b9857f2b814b0a7fef1605a58bec0a24e4e75bf..e6edefe73ea6cea78f6be76edfaef0ebac7b92f3 100644
+--- a/dist/src/tasks/storage-layout.js
++++ b/dist/src/tasks/storage-layout.js
+@@ -29,7 +29,7 @@ const utils_1 = require("../utils");
+         console.log("Contract:", contract.contractName);
+         const fileName = `${hre.config.storageLayoutChanges.fullPath
+             ? contract.fullyQualifiedName
+-            : contract.contractName}.json`;
++            : contract.contractName}.json`.replace(/:/g, '__');
+         const fullPath = path_1.default.join(basePath, fileName);
+         const contractStorageLayout = await (0, utils_1.getStorageLayout)(hre, contract.sourceName, contract.contractName);
+         let results = [];

@@ -1,0 +1,165 @@
+{
+  "storage": [
+    {
+      "astId": 17,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "totalSupply",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 21,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "balanceOf",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 27,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "allowance",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))"
+    },
+    {
+      "astId": 29,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "DOMAIN_SEPARATOR",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_bytes32"
+    },
+    {
+      "astId": 36,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "nonces",
+      "offset": 0,
+      "slot": "4",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 639,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "factory",
+      "offset": 0,
+      "slot": "5",
+      "type": "t_address"
+    },
+    {
+      "astId": 641,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "token0",
+      "offset": 0,
+      "slot": "6",
+      "type": "t_address"
+    },
+    {
+      "astId": 643,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "token1",
+      "offset": 0,
+      "slot": "7",
+      "type": "t_address"
+    },
+    {
+      "astId": 645,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "reserve0",
+      "offset": 0,
+      "slot": "8",
+      "type": "t_uint112"
+    },
+    {
+      "astId": 647,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "reserve1",
+      "offset": 14,
+      "slot": "8",
+      "type": "t_uint112"
+    },
+    {
+      "astId": 649,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "blockTimestampLast",
+      "offset": 28,
+      "slot": "8",
+      "type": "t_uint32"
+    },
+    {
+      "astId": 651,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "price0CumulativeLast",
+      "offset": 0,
+      "slot": "9",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 653,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "price1CumulativeLast",
+      "offset": 0,
+      "slot": "10",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 655,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "kLast",
+      "offset": 0,
+      "slot": "11",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 658,
+      "contract": "contracts/test/uniswap/core/UniswapV2Pair.sol:UniswapV2Pair",
+      "label": "unlocked",
+      "offset": 0,
+      "slot": "12",
+      "type": "t_uint256"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_bytes32": {
+      "encoding": "inplace",
+      "label": "bytes32",
+      "numberOfBytes": "32"
+    },
+    "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => mapping(address => uint256))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_address,t_uint256)"
+    },
+    "t_mapping(t_address,t_uint256)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => uint256)",
+      "numberOfBytes": "32",
+      "value": "t_uint256"
+    },
+    "t_uint112": {
+      "encoding": "inplace",
+      "label": "uint112",
+      "numberOfBytes": "14"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint32": {
+      "encoding": "inplace",
+      "label": "uint32",
+      "numberOfBytes": "4"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "storage": [
+    {
+      "astId": 11663,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 11666,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 11733,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "______gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 11656,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 11878,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_address"
+    },
+    {
+      "astId": 11983,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 12005,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "_paused",
+      "offset": 0,
+      "slot": "151",
+      "type": "t_bool"
+    },
+    {
+      "astId": 12110,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "152",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 55105,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "weth",
+      "offset": 0,
+      "slot": "201",
+      "type": "t_contract(IWETH)19066"
+    },
+    {
+      "astId": 55108,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "prntAddr",
+      "offset": 0,
+      "slot": "202",
+      "type": "t_address"
+    },
+    {
+      "astId": 55112,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "mfd",
+      "offset": 0,
+      "slot": "203",
+      "type": "t_contract(IMultiFeeDistribution)18027"
+    },
+    {
+      "astId": 55116,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "lendingPool",
+      "offset": 0,
+      "slot": "204",
+      "type": "t_contract(ILendingPool)17095"
+    },
+    {
+      "astId": 55120,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "poolHelper",
+      "offset": 0,
+      "slot": "205",
+      "type": "t_contract(IPoolHelper)18161"
+    },
+    {
+      "astId": 55124,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "priceProvider",
+      "offset": 0,
+      "slot": "206",
+      "type": "t_contract(IPriceProvider)18252"
+    },
+    {
+      "astId": 55128,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "aaveOracle",
+      "offset": 0,
+      "slot": "207",
+      "type": "t_contract(IAaveOracle)16036"
+    },
+    {
+      "astId": 55131,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "ethLPRatio",
+      "offset": 0,
+      "slot": "208",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 55134,
+      "contract": "contracts/test/TestLockZap.sol:TestnetLockZap",
+      "label": "uniRouter",
+      "offset": 0,
+      "slot": "209",
+      "type": "t_address"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IAaveOracle)16036": {
+      "encoding": "inplace",
+      "label": "contract IAaveOracle",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ILendingPool)17095": {
+      "encoding": "inplace",
+      "label": "contract ILendingPool",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IMultiFeeDistribution)18027": {
+      "encoding": "inplace",
+      "label": "contract IMultiFeeDistribution",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IPoolHelper)18161": {
+      "encoding": "inplace",
+      "label": "contract IPoolHelper",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IPriceProvider)18252": {
+      "encoding": "inplace",
+      "label": "contract IPriceProvider",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IWETH)19066": {
+      "encoding": "inplace",
+      "label": "contract IWETH",
+      "numberOfBytes": "20"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    }
+  }
+}

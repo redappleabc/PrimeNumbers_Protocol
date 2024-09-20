@@ -1,0 +1,32 @@
+{
+  "storage": [
+    {
+      "astId": 59999,
+      "contract": "contracts/test/MockChainlinkAggregator.sol:MockChainlinkAggregator",
+      "label": "price",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_int256"
+    },
+    {
+      "astId": 60002,
+      "contract": "contracts/test/MockChainlinkAggregator.sol:MockChainlinkAggregator",
+      "label": "newUpdatedAt",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_uint256"
+    }
+  ],
+  "types": {
+    "t_int256": {
+      "encoding": "inplace",
+      "label": "int256",
+      "numberOfBytes": "32"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    }
+  }
+}

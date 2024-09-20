@@ -1,0 +1,302 @@
+{
+  "storage": [
+    {
+      "astId": 61102,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "lzEndpointLookup",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_mapping(t_address,t_address)"
+    },
+    {
+      "astId": 61104,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "mockChainId",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_uint16"
+    },
+    {
+      "astId": 61106,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "mockOracle",
+      "offset": 2,
+      "slot": "1",
+      "type": "t_address_payable"
+    },
+    {
+      "astId": 61108,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "mockRelayer",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_address_payable"
+    },
+    {
+      "astId": 61110,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "mockBlockConfirmations",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 61112,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "mockLibraryVersion",
+      "offset": 0,
+      "slot": "4",
+      "type": "t_uint16"
+    },
+    {
+      "astId": 61114,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "mockStaticNativeFee",
+      "offset": 0,
+      "slot": "5",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 61116,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "mockLayerZeroVersion",
+      "offset": 0,
+      "slot": "6",
+      "type": "t_uint16"
+    },
+    {
+      "astId": 61118,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "nativeFee",
+      "offset": 0,
+      "slot": "7",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 61120,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "zroFee",
+      "offset": 0,
+      "slot": "8",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 61122,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "nextMsgBLocked",
+      "offset": 0,
+      "slot": "9",
+      "type": "t_bool"
+    },
+    {
+      "astId": 61142,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "inboundNonce",
+      "offset": 0,
+      "slot": "10",
+      "type": "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_uint64))"
+    },
+    {
+      "astId": 61148,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "outboundNonce",
+      "offset": 0,
+      "slot": "11",
+      "type": "t_mapping(t_uint16,t_mapping(t_address,t_uint64))"
+    },
+    {
+      "astId": 61155,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "storedPayload",
+      "offset": 0,
+      "slot": "12",
+      "type": "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_struct(StoredPayload)61129_storage))"
+    },
+    {
+      "astId": 61163,
+      "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+      "label": "msgsToDeliver",
+      "offset": 0,
+      "slot": "13",
+      "type": "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_array(t_struct(QueuedPayload)61136_storage)dyn_storage))"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_address_payable": {
+      "encoding": "inplace",
+      "label": "address payable",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_struct(QueuedPayload)61136_storage)dyn_storage": {
+      "base": "t_struct(QueuedPayload)61136_storage",
+      "encoding": "dynamic_array",
+      "label": "struct LZEndpointMock.QueuedPayload[]",
+      "numberOfBytes": "32"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_bytes32": {
+      "encoding": "inplace",
+      "label": "bytes32",
+      "numberOfBytes": "32"
+    },
+    "t_bytes_memory_ptr": {
+      "encoding": "bytes",
+      "label": "bytes",
+      "numberOfBytes": "32"
+    },
+    "t_bytes_storage": {
+      "encoding": "bytes",
+      "label": "bytes",
+      "numberOfBytes": "32"
+    },
+    "t_mapping(t_address,t_address)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => address)",
+      "numberOfBytes": "32",
+      "value": "t_address"
+    },
+    "t_mapping(t_address,t_uint64)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => uint64)",
+      "numberOfBytes": "32",
+      "value": "t_uint64"
+    },
+    "t_mapping(t_bytes_memory_ptr,t_array(t_struct(QueuedPayload)61136_storage)dyn_storage)": {
+      "encoding": "mapping",
+      "key": "t_bytes_memory_ptr",
+      "label": "mapping(bytes => struct LZEndpointMock.QueuedPayload[])",
+      "numberOfBytes": "32",
+      "value": "t_array(t_struct(QueuedPayload)61136_storage)dyn_storage"
+    },
+    "t_mapping(t_bytes_memory_ptr,t_struct(StoredPayload)61129_storage)": {
+      "encoding": "mapping",
+      "key": "t_bytes_memory_ptr",
+      "label": "mapping(bytes => struct LZEndpointMock.StoredPayload)",
+      "numberOfBytes": "32",
+      "value": "t_struct(StoredPayload)61129_storage"
+    },
+    "t_mapping(t_bytes_memory_ptr,t_uint64)": {
+      "encoding": "mapping",
+      "key": "t_bytes_memory_ptr",
+      "label": "mapping(bytes => uint64)",
+      "numberOfBytes": "32",
+      "value": "t_uint64"
+    },
+    "t_mapping(t_uint16,t_mapping(t_address,t_uint64))": {
+      "encoding": "mapping",
+      "key": "t_uint16",
+      "label": "mapping(uint16 => mapping(address => uint64))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_address,t_uint64)"
+    },
+    "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_array(t_struct(QueuedPayload)61136_storage)dyn_storage))": {
+      "encoding": "mapping",
+      "key": "t_uint16",
+      "label": "mapping(uint16 => mapping(bytes => struct LZEndpointMock.QueuedPayload[]))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_bytes_memory_ptr,t_array(t_struct(QueuedPayload)61136_storage)dyn_storage)"
+    },
+    "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_struct(StoredPayload)61129_storage))": {
+      "encoding": "mapping",
+      "key": "t_uint16",
+      "label": "mapping(uint16 => mapping(bytes => struct LZEndpointMock.StoredPayload))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_bytes_memory_ptr,t_struct(StoredPayload)61129_storage)"
+    },
+    "t_mapping(t_uint16,t_mapping(t_bytes_memory_ptr,t_uint64))": {
+      "encoding": "mapping",
+      "key": "t_uint16",
+      "label": "mapping(uint16 => mapping(bytes => uint64))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_bytes_memory_ptr,t_uint64)"
+    },
+    "t_struct(QueuedPayload)61136_storage": {
+      "encoding": "inplace",
+      "label": "struct LZEndpointMock.QueuedPayload",
+      "members": [
+        {
+          "astId": 61131,
+          "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+          "label": "dstAddress",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_address"
+        },
+        {
+          "astId": 61133,
+          "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+          "label": "nonce",
+          "offset": 20,
+          "slot": "0",
+          "type": "t_uint64"
+        },
+        {
+          "astId": 61135,
+          "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+          "label": "payload",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_bytes_storage"
+        }
+      ],
+      "numberOfBytes": "64"
+    },
+    "t_struct(StoredPayload)61129_storage": {
+      "encoding": "inplace",
+      "label": "struct LZEndpointMock.StoredPayload",
+      "members": [
+        {
+          "astId": 61124,
+          "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+          "label": "payloadLength",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint64"
+        },
+        {
+          "astId": 61126,
+          "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+          "label": "dstAddress",
+          "offset": 8,
+          "slot": "0",
+          "type": "t_address"
+        },
+        {
+          "astId": 61128,
+          "contract": "contracts/test/lz/LZEndpointMock.sol:LZEndpointMock",
+          "label": "payloadHash",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_bytes32"
+        }
+      ],
+      "numberOfBytes": "64"
+    },
+    "t_uint16": {
+      "encoding": "inplace",
+      "label": "uint16",
+      "numberOfBytes": "2"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint64": {
+      "encoding": "inplace",
+      "label": "uint64",
+      "numberOfBytes": "8"
+    }
+  }
+}

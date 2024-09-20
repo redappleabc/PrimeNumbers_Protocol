@@ -1,0 +1,326 @@
+{
+  "storage": [
+    {
+      "astId": 29654,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "lastInitializedRevision",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 29657,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "initializing",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_bool"
+    },
+    {
+      "astId": 29660,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "initialized",
+      "offset": 1,
+      "slot": "1",
+      "type": "t_bool"
+    },
+    {
+      "astId": 29738,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "______gap",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 29476,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "_addressesProvider",
+      "offset": 0,
+      "slot": "52",
+      "type": "t_contract(ILendingPoolAddressesProvider)17256"
+    },
+    {
+      "astId": 29481,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "_reserves",
+      "offset": 0,
+      "slot": "53",
+      "type": "t_mapping(t_address,t_struct(ReserveData)34182_storage)"
+    },
+    {
+      "astId": 29486,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "_usersConfig",
+      "offset": 0,
+      "slot": "54",
+      "type": "t_mapping(t_address,t_struct(UserConfigurationMap)34188_storage)"
+    },
+    {
+      "astId": 29490,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "_reservesList",
+      "offset": 0,
+      "slot": "55",
+      "type": "t_mapping(t_uint256,t_address)"
+    },
+    {
+      "astId": 29492,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "_reservesCount",
+      "offset": 0,
+      "slot": "56",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 29494,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "_paused",
+      "offset": 0,
+      "slot": "57",
+      "type": "t_bool"
+    },
+    {
+      "astId": 29496,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "_maxStableRateBorrowSizePercent",
+      "offset": 0,
+      "slot": "58",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 29498,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "_flashLoanPremiumTotal",
+      "offset": 0,
+      "slot": "59",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 29500,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "_maxNumberOfReserves",
+      "offset": 0,
+      "slot": "60",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 25384,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "leverager",
+      "offset": 0,
+      "slot": "61",
+      "type": "t_contract(ILeverager)17571"
+    },
+    {
+      "astId": 25386,
+      "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+      "label": "owner",
+      "offset": 0,
+      "slot": "62",
+      "type": "t_address"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(ILendingPoolAddressesProvider)17256": {
+      "encoding": "inplace",
+      "label": "contract ILendingPoolAddressesProvider",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ILeverager)17571": {
+      "encoding": "inplace",
+      "label": "contract ILeverager",
+      "numberOfBytes": "20"
+    },
+    "t_mapping(t_address,t_struct(ReserveData)34182_storage)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => struct DataTypes.ReserveData)",
+      "numberOfBytes": "32",
+      "value": "t_struct(ReserveData)34182_storage"
+    },
+    "t_mapping(t_address,t_struct(UserConfigurationMap)34188_storage)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => struct DataTypes.UserConfigurationMap)",
+      "numberOfBytes": "32",
+      "value": "t_struct(UserConfigurationMap)34188_storage"
+    },
+    "t_mapping(t_uint256,t_address)": {
+      "encoding": "mapping",
+      "key": "t_uint256",
+      "label": "mapping(uint256 => address)",
+      "numberOfBytes": "32",
+      "value": "t_address"
+    },
+    "t_struct(ReserveConfigurationMap)34185_storage": {
+      "encoding": "inplace",
+      "label": "struct DataTypes.ReserveConfigurationMap",
+      "members": [
+        {
+          "astId": 34184,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "data",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint256"
+        }
+      ],
+      "numberOfBytes": "32"
+    },
+    "t_struct(ReserveData)34182_storage": {
+      "encoding": "inplace",
+      "label": "struct DataTypes.ReserveData",
+      "members": [
+        {
+          "astId": 34159,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "configuration",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_struct(ReserveConfigurationMap)34185_storage"
+        },
+        {
+          "astId": 34161,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "liquidityIndex",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 34163,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "variableBorrowIndex",
+          "offset": 16,
+          "slot": "1",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 34165,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "currentLiquidityRate",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 34167,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "currentVariableBorrowRate",
+          "offset": 16,
+          "slot": "2",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 34169,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "currentStableBorrowRate",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 34171,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "lastUpdateTimestamp",
+          "offset": 16,
+          "slot": "3",
+          "type": "t_uint40"
+        },
+        {
+          "astId": 34173,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "aTokenAddress",
+          "offset": 0,
+          "slot": "4",
+          "type": "t_address"
+        },
+        {
+          "astId": 34175,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "stableDebtTokenAddress",
+          "offset": 0,
+          "slot": "5",
+          "type": "t_address"
+        },
+        {
+          "astId": 34177,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "variableDebtTokenAddress",
+          "offset": 0,
+          "slot": "6",
+          "type": "t_address"
+        },
+        {
+          "astId": 34179,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "interestRateStrategyAddress",
+          "offset": 0,
+          "slot": "7",
+          "type": "t_address"
+        },
+        {
+          "astId": 34181,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "id",
+          "offset": 20,
+          "slot": "7",
+          "type": "t_uint8"
+        }
+      ],
+      "numberOfBytes": "256"
+    },
+    "t_struct(UserConfigurationMap)34188_storage": {
+      "encoding": "inplace",
+      "label": "struct DataTypes.UserConfigurationMap",
+      "members": [
+        {
+          "astId": 34187,
+          "contract": "contracts/lending/lendingpool/LendingPool.sol:LendingPool",
+          "label": "data",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint256"
+        }
+      ],
+      "numberOfBytes": "32"
+    },
+    "t_uint128": {
+      "encoding": "inplace",
+      "label": "uint128",
+      "numberOfBytes": "16"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint40": {
+      "encoding": "inplace",
+      "label": "uint40",
+      "numberOfBytes": "5"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}

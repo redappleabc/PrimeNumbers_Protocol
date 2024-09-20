@@ -1,0 +1,32 @@
+{
+  "storage": [
+    {
+      "astId": 62282,
+      "contract": "contracts/test/oracle/MockArbitrumSequencerUptimeFeed.sol:MockArbitrumSequencerUptimeFeed",
+      "label": "aliasedL1MessageSender",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_address"
+    },
+    {
+      "astId": 62288,
+      "contract": "contracts/test/oracle/MockArbitrumSequencerUptimeFeed.sol:MockArbitrumSequencerUptimeFeed",
+      "label": "sequencer",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_contract(ISequencerAggregator)18373"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ISequencerAggregator)18373": {
+      "encoding": "inplace",
+      "label": "contract ISequencerAggregator",
+      "numberOfBytes": "20"
+    }
+  }
+}

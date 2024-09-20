@@ -1,0 +1,53 @@
+diff --git a/internal/hardhat-network/provider/fork/ForkBlockchain.js b/internal/hardhat-network/provider/fork/ForkBlockchain.js
+index f63a37be8f59e794ebcb8a70487ba37401548bf3..c5708c7227f5f7f3cad86467996563ba0b6acf47 100644
+--- a/internal/hardhat-network/provider/fork/ForkBlockchain.js
++++ b/internal/hardhat-network/provider/fork/ForkBlockchain.js
+@@ -205,25 +205,29 @@ class ForkBlockchain extends BlockchainBase_1.BlockchainBase {
+         });
+         for (const transaction of rpcBlock.transactions) {
+             let tx;
+-            if (transaction.type === undefined || transaction.type === 0n) {
+-                tx = new ReadOnlyValidTransaction_1.ReadOnlyValidTransaction(new ethereumjs_util_1.Address(transaction.from), (0, rpcToTxData_1.rpcToTxData)(transaction));
+-            }
+-            else if (transaction.type === 1n) {
+-                tx = new ReadOnlyValidEIP2930Transaction_1.ReadOnlyValidEIP2930Transaction(new ethereumjs_util_1.Address(transaction.from), (0, rpcToTxData_1.rpcToTxData)(transaction));
+-            }
+-            else if (transaction.type === 2n) {
+-                tx = new ReadOnlyValidEIP1559Transaction_1.ReadOnlyValidEIP1559Transaction(new ethereumjs_util_1.Address(transaction.from), (0, rpcToTxData_1.rpcToTxData)(transaction));
+-            }
+-            else {
+-                // we try to interpret unknown txs as legacy transactions, to support
+-                // networks like Arbitrum that have non-standards tx types
+-                try {
+-                    tx = new ReadOnlyValidUnknownTypeTransaction_1.ReadOnlyValidUnknownTypeTransaction(new ethereumjs_util_1.Address(transaction.from), Number(transaction.type), (0, rpcToTxData_1.rpcToTxData)(transaction));
+-                }
+-                catch (e) {
+-                    throw new errors_1.InternalError(`Could not process transaction with type ${transaction.type.toString()}`, e);
+-                }
+-            }
++			switch (transaction.type) {
++				case undefined:
++				case 0n:
++					tx = new ReadOnlyValidTransaction_1.ReadOnlyValidTransaction(new ethereumjs_util_1.Address(transaction.from), (0, rpcToTxData_1.rpcToTxData)(transaction));
++					break;
++				case 1n:
++					tx = new ReadOnlyValidEIP2930Transaction_1.ReadOnlyValidEIP2930Transaction(new ethereumjs_util_1.Address(transaction.from), (0, rpcToTxData_1.rpcToTxData)(transaction));
++					break;
++				case 2n:
++					try {
++						tx = new ReadOnlyValidEIP1559Transaction_1.ReadOnlyValidEIP1559Transaction(new ethereumjs_util_1.Address(transaction.from), (0, rpcToTxData_1.rpcToTxData)(transaction));
++						break;
++					} catch {} // Falling through intentionally
++				default:
++					// we try to interpret unknown txs as legacy transactions, to support
++					// networks like Arbitrum that have non-standards tx types
++					try {
++						tx = new ReadOnlyValidUnknownTypeTransaction_1.ReadOnlyValidUnknownTypeTransaction(new ethereumjs_util_1.Address(transaction.from), Number(transaction.type), (0, rpcToTxData_1.rpcToTxData)(transaction));
++					}
++					catch (e) {
++						throw new errors_1.InternalError(`Could not process transaction with type ${transaction.type.toString()}`, e);
++					}
++			}
+             block.transactions.push(tx);
+         }
+         this._data.addBlock(block, rpcBlock.totalDifficulty);

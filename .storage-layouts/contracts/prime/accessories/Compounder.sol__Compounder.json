@@ -1,0 +1,231 @@
+{
+  "storage": [
+    {
+      "astId": 3620,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "_initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_uint8"
+    },
+    {
+      "astId": 3623,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "_initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 4280,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 3492,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_address"
+    },
+    {
+      "astId": 3612,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "52",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 3803,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "_paused",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_bool"
+    },
+    {
+      "astId": 3908,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 37445,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "compoundFee",
+      "offset": 0,
+      "slot": "151",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 37448,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "slippageLimit",
+      "offset": 0,
+      "slot": "152",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 37452,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "prntToken",
+      "offset": 0,
+      "slot": "153",
+      "type": "t_contract(IMintableToken)17873"
+    },
+    {
+      "astId": 37455,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "baseToken",
+      "offset": 0,
+      "slot": "154",
+      "type": "t_address"
+    },
+    {
+      "astId": 37458,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "addressProvider",
+      "offset": 0,
+      "slot": "155",
+      "type": "t_address"
+    },
+    {
+      "astId": 37461,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "priceProvider",
+      "offset": 0,
+      "slot": "156",
+      "type": "t_address"
+    },
+    {
+      "astId": 37465,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "rewardBaseTokens",
+      "offset": 0,
+      "slot": "157",
+      "type": "t_array(t_address)dyn_storage"
+    },
+    {
+      "astId": 37469,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "wethToPrime",
+      "offset": 0,
+      "slot": "158",
+      "type": "t_array(t_address)dyn_storage"
+    },
+    {
+      "astId": 37472,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "uniRouter",
+      "offset": 0,
+      "slot": "159",
+      "type": "t_address"
+    },
+    {
+      "astId": 37475,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "multiFeeDistribution",
+      "offset": 0,
+      "slot": "160",
+      "type": "t_address"
+    },
+    {
+      "astId": 37478,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "lockZap",
+      "offset": 0,
+      "slot": "161",
+      "type": "t_address"
+    },
+    {
+      "astId": 37481,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "bountyManager",
+      "offset": 0,
+      "slot": "162",
+      "type": "t_address"
+    },
+    {
+      "astId": 37486,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "lastAutocompound",
+      "offset": 0,
+      "slot": "163",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 37492,
+      "contract": "contracts/prime/accessories/Compounder.sol:Compounder",
+      "label": "rewardToBaseRoute",
+      "offset": 0,
+      "slot": "164",
+      "type": "t_mapping(t_address,t_array(t_address)dyn_storage)"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_address)dyn_storage": {
+      "base": "t_address",
+      "encoding": "dynamic_array",
+      "label": "address[]",
+      "numberOfBytes": "32"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IMintableToken)17873": {
+      "encoding": "inplace",
+      "label": "contract IMintableToken",
+      "numberOfBytes": "20"
+    },
+    "t_mapping(t_address,t_array(t_address)dyn_storage)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => address[])",
+      "numberOfBytes": "32",
+      "value": "t_array(t_address)dyn_storage"
+    },
+    "t_mapping(t_address,t_uint256)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => uint256)",
+      "numberOfBytes": "32",
+      "value": "t_uint256"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}

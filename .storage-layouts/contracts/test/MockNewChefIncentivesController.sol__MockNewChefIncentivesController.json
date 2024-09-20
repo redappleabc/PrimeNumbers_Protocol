@@ -1,0 +1,490 @@
+{
+  "storage": [
+    {
+      "astId": 3620,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "_initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_uint8"
+    },
+    {
+      "astId": 3623,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "_initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 4280,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 3803,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "_paused",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_bool"
+    },
+    {
+      "astId": 3908,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "52",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 3492,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_address"
+    },
+    {
+      "astId": 3612,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 47050,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "emissionSchedule",
+      "offset": 0,
+      "slot": "151",
+      "type": "t_array(t_struct(EmissionPoint)46930_storage)dyn_storage"
+    },
+    {
+      "astId": 47052,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "persistRewardsPerSecond",
+      "offset": 0,
+      "slot": "152",
+      "type": "t_bool"
+    },
+    {
+      "astId": 47055,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "registeredTokens",
+      "offset": 0,
+      "slot": "153",
+      "type": "t_array(t_address)dyn_storage"
+    },
+    {
+      "astId": 47057,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "rewardsPerSecond",
+      "offset": 0,
+      "slot": "154",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 47059,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "lastRPS",
+      "offset": 0,
+      "slot": "155",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 47061,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "emissionScheduleIndex",
+      "offset": 0,
+      "slot": "156",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 47066,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "poolInfo",
+      "offset": 0,
+      "slot": "157",
+      "type": "t_mapping(t_address,t_struct(PoolInfo)46925_storage)"
+    },
+    {
+      "astId": 47070,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "validRTokens",
+      "offset": 0,
+      "slot": "158",
+      "type": "t_mapping(t_address,t_bool)"
+    },
+    {
+      "astId": 47072,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "totalAllocPoint",
+      "offset": 0,
+      "slot": "159",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 47079,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "userInfo",
+      "offset": 0,
+      "slot": "160",
+      "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserInfo)46913_storage))"
+    },
+    {
+      "astId": 47083,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "userBaseClaimable",
+      "offset": 0,
+      "slot": "161",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 47087,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "eligibilityExempt",
+      "offset": 0,
+      "slot": "162",
+      "type": "t_mapping(t_address,t_bool)"
+    },
+    {
+      "astId": 47089,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "startTime",
+      "offset": 0,
+      "slot": "163",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 47091,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "eligibilityEnabled",
+      "offset": 0,
+      "slot": "164",
+      "type": "t_bool"
+    },
+    {
+      "astId": 47093,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "poolConfigurator",
+      "offset": 1,
+      "slot": "164",
+      "type": "t_address"
+    },
+    {
+      "astId": 47095,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "depositedRewards",
+      "offset": 0,
+      "slot": "165",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 47097,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "accountedRewards",
+      "offset": 0,
+      "slot": "166",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 47099,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "lastAllPoolUpdate",
+      "offset": 0,
+      "slot": "167",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 47102,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "rewardMinter",
+      "offset": 0,
+      "slot": "168",
+      "type": "t_contract(IMiddleFeeDistribution)17844"
+    },
+    {
+      "astId": 47105,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "eligibleDataProvider",
+      "offset": 0,
+      "slot": "169",
+      "type": "t_contract(IEligibilityDataProvider)16530"
+    },
+    {
+      "astId": 47107,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "bountyManager",
+      "offset": 0,
+      "slot": "170",
+      "type": "t_address"
+    },
+    {
+      "astId": 47110,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "leverager",
+      "offset": 0,
+      "slot": "171",
+      "type": "t_contract(ILeverager)17571"
+    },
+    {
+      "astId": 47113,
+      "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+      "label": "endingTime",
+      "offset": 0,
+      "slot": "172",
+      "type": "t_struct(EndingTime)46937_storage"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_address)dyn_storage": {
+      "base": "t_address",
+      "encoding": "dynamic_array",
+      "label": "address[]",
+      "numberOfBytes": "32"
+    },
+    "t_array(t_struct(EmissionPoint)46930_storage)dyn_storage": {
+      "base": "t_struct(EmissionPoint)46930_storage",
+      "encoding": "dynamic_array",
+      "label": "struct ChefIncentivesController.EmissionPoint[]",
+      "numberOfBytes": "32"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IEligibilityDataProvider)16530": {
+      "encoding": "inplace",
+      "label": "contract IEligibilityDataProvider",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ILeverager)17571": {
+      "encoding": "inplace",
+      "label": "contract ILeverager",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IMiddleFeeDistribution)17844": {
+      "encoding": "inplace",
+      "label": "contract IMiddleFeeDistribution",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IOnwardIncentivesController)18083": {
+      "encoding": "inplace",
+      "label": "contract IOnwardIncentivesController",
+      "numberOfBytes": "20"
+    },
+    "t_mapping(t_address,t_bool)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => bool)",
+      "numberOfBytes": "32",
+      "value": "t_bool"
+    },
+    "t_mapping(t_address,t_mapping(t_address,t_struct(UserInfo)46913_storage))": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => mapping(address => struct ChefIncentivesController.UserInfo))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_address,t_struct(UserInfo)46913_storage)"
+    },
+    "t_mapping(t_address,t_struct(PoolInfo)46925_storage)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => struct ChefIncentivesController.PoolInfo)",
+      "numberOfBytes": "32",
+      "value": "t_struct(PoolInfo)46925_storage"
+    },
+    "t_mapping(t_address,t_struct(UserInfo)46913_storage)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => struct ChefIncentivesController.UserInfo)",
+      "numberOfBytes": "32",
+      "value": "t_struct(UserInfo)46913_storage"
+    },
+    "t_mapping(t_address,t_uint256)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => uint256)",
+      "numberOfBytes": "32",
+      "value": "t_uint256"
+    },
+    "t_struct(EmissionPoint)46930_storage": {
+      "encoding": "inplace",
+      "label": "struct ChefIncentivesController.EmissionPoint",
+      "members": [
+        {
+          "astId": 46927,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "startTimeOffset",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 46929,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "rewardsPerSecond",
+          "offset": 16,
+          "slot": "0",
+          "type": "t_uint128"
+        }
+      ],
+      "numberOfBytes": "32"
+    },
+    "t_struct(EndingTime)46937_storage": {
+      "encoding": "inplace",
+      "label": "struct ChefIncentivesController.EndingTime",
+      "members": [
+        {
+          "astId": 46932,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "estimatedTime",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 46934,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "lastUpdatedTime",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 46936,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "updateCadence",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint256"
+        }
+      ],
+      "numberOfBytes": "96"
+    },
+    "t_struct(PoolInfo)46925_storage": {
+      "encoding": "inplace",
+      "label": "struct ChefIncentivesController.PoolInfo",
+      "members": [
+        {
+          "astId": 46915,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "totalSupply",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 46917,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "allocPoint",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 46919,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "lastRewardTime",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 46921,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "accRewardPerShare",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 46924,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "onwardIncentives",
+          "offset": 0,
+          "slot": "4",
+          "type": "t_contract(IOnwardIncentivesController)18083"
+        }
+      ],
+      "numberOfBytes": "160"
+    },
+    "t_struct(UserInfo)46913_storage": {
+      "encoding": "inplace",
+      "label": "struct ChefIncentivesController.UserInfo",
+      "members": [
+        {
+          "astId": 46906,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "amount",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 46908,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "rewardDebt",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 46910,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "enterTime",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 46912,
+          "contract": "contracts/test/MockNewChefIncentivesController.sol:MockNewChefIncentivesController",
+          "label": "lastClaimTime",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_uint256"
+        }
+      ],
+      "numberOfBytes": "128"
+    },
+    "t_uint128": {
+      "encoding": "inplace",
+      "label": "uint128",
+      "numberOfBytes": "16"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}

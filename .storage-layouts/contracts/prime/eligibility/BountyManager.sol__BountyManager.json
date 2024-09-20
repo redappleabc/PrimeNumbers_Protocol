@@ -1,0 +1,252 @@
+{
+  "storage": [
+    {
+      "astId": 11663,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 11666,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 11733,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "______gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 11656,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 11878,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_address"
+    },
+    {
+      "astId": 11983,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 12005,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "_paused",
+      "offset": 0,
+      "slot": "151",
+      "type": "t_bool"
+    },
+    {
+      "astId": 12110,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "152",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 42949,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "prnt",
+      "offset": 0,
+      "slot": "201",
+      "type": "t_address"
+    },
+    {
+      "astId": 42951,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "weth",
+      "offset": 0,
+      "slot": "202",
+      "type": "t_address"
+    },
+    {
+      "astId": 42953,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "mfd",
+      "offset": 0,
+      "slot": "203",
+      "type": "t_address"
+    },
+    {
+      "astId": 42955,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "chef",
+      "offset": 0,
+      "slot": "204",
+      "type": "t_address"
+    },
+    {
+      "astId": 42957,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "priceProvider",
+      "offset": 0,
+      "slot": "205",
+      "type": "t_address"
+    },
+    {
+      "astId": 42959,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "eligibilityDataProvider",
+      "offset": 0,
+      "slot": "206",
+      "type": "t_address"
+    },
+    {
+      "astId": 42961,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "compounder",
+      "offset": 0,
+      "slot": "207",
+      "type": "t_address"
+    },
+    {
+      "astId": 42963,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "hunterShare",
+      "offset": 0,
+      "slot": "208",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 42965,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "baseBountyUsdTarget",
+      "offset": 0,
+      "slot": "209",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 42967,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "maxBaseBounty",
+      "offset": 0,
+      "slot": "210",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 42969,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "bountyBooster",
+      "offset": 0,
+      "slot": "211",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 42971,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "bountyCount",
+      "offset": 0,
+      "slot": "212",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 42973,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "minStakeAmount",
+      "offset": 0,
+      "slot": "213",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 42975,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "slippageLimit",
+      "offset": 0,
+      "slot": "214",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 42999,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "bounties",
+      "offset": 0,
+      "slot": "215",
+      "type": "t_mapping(t_uint256,t_function_internal_nonpayable(t_address,t_bool)returns(t_address,t_uint256,t_bool))"
+    },
+    {
+      "astId": 43003,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "whitelist",
+      "offset": 0,
+      "slot": "216",
+      "type": "t_mapping(t_address,t_bool)"
+    },
+    {
+      "astId": 43005,
+      "contract": "contracts/prime/eligibility/BountyManager.sol:BountyManager",
+      "label": "whitelistActive",
+      "offset": 0,
+      "slot": "217",
+      "type": "t_bool"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_function_internal_nonpayable(t_address,t_bool)returns(t_address,t_uint256,t_bool)": {
+      "encoding": "inplace",
+      "label": "function (address,bool) returns (address,uint256,bool)",
+      "numberOfBytes": "8"
+    },
+    "t_mapping(t_address,t_bool)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => bool)",
+      "numberOfBytes": "32",
+      "value": "t_bool"
+    },
+    "t_mapping(t_uint256,t_function_internal_nonpayable(t_address,t_bool)returns(t_address,t_uint256,t_bool))": {
+      "encoding": "mapping",
+      "key": "t_uint256",
+      "label": "mapping(uint256 => function (address,bool) returns (address,uint256,bool))",
+      "numberOfBytes": "32",
+      "value": "t_function_internal_nonpayable(t_address,t_bool)returns(t_address,t_uint256,t_bool)"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    }
+  }
+}

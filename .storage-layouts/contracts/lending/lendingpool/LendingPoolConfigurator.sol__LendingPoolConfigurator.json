@@ -1,0 +1,80 @@
+{
+  "storage": [
+    {
+      "astId": 29654,
+      "contract": "contracts/lending/lendingpool/LendingPoolConfigurator.sol:LendingPoolConfigurator",
+      "label": "lastInitializedRevision",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 29657,
+      "contract": "contracts/lending/lendingpool/LendingPoolConfigurator.sol:LendingPoolConfigurator",
+      "label": "initializing",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_bool"
+    },
+    {
+      "astId": 29660,
+      "contract": "contracts/lending/lendingpool/LendingPoolConfigurator.sol:LendingPoolConfigurator",
+      "label": "initialized",
+      "offset": 1,
+      "slot": "1",
+      "type": "t_bool"
+    },
+    {
+      "astId": 29738,
+      "contract": "contracts/lending/lendingpool/LendingPoolConfigurator.sol:LendingPoolConfigurator",
+      "label": "______gap",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 28314,
+      "contract": "contracts/lending/lendingpool/LendingPoolConfigurator.sol:LendingPoolConfigurator",
+      "label": "addressesProvider",
+      "offset": 0,
+      "slot": "52",
+      "type": "t_contract(ILendingPoolAddressesProvider)17256"
+    },
+    {
+      "astId": 28317,
+      "contract": "contracts/lending/lendingpool/LendingPoolConfigurator.sol:LendingPoolConfigurator",
+      "label": "pool",
+      "offset": 0,
+      "slot": "53",
+      "type": "t_contract(ILendingPool)17095"
+    }
+  ],
+  "types": {
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(ILendingPool)17095": {
+      "encoding": "inplace",
+      "label": "contract ILendingPool",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ILendingPoolAddressesProvider)17256": {
+      "encoding": "inplace",
+      "label": "contract ILendingPoolAddressesProvider",
+      "numberOfBytes": "20"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    }
+  }
+}

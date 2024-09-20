@@ -1,0 +1,331 @@
+{
+  "address": "0x729fbC0865030Fa94Edb25a78cbad38055cb3fFC",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_chainlinkFeed",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_heartbeat",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "AddressZero",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidPrice",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "RoundNotComplete",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "StalePrice",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "HEART_BEAT_TOLERANCE",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "chainlinkFeed",
+      "outputs": [
+        {
+          "internalType": "contract AggregatorV3Interface",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "description",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint80",
+          "name": "_roundId",
+          "type": "uint80"
+        }
+      ],
+      "name": "getRoundData",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "heartbeat",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestAnswer",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "price",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestRoundData",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "_answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_updatedAt",
+          "type": "uint256"
+        }
+      ],
+      "name": "validate",
+      "outputs": [],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "version",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xacb039f2ff6a547c117076b15e645850a5327d24548b1b9871d0adea452de82c",
+  "receipt": {
+    "to": null,
+    "from": "0xdE8023f05d831Fb7381486D041237ddEB06c1BA2",
+    "contractAddress": "0x729fbC0865030Fa94Edb25a78cbad38055cb3fFC",
+    "transactionIndex": 3,
+    "gasUsed": "561590",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x19cccaed466d497b293d433418d72be838f8a155b78cc03644fb15f8e4bdcbae",
+    "transactionHash": "0xacb039f2ff6a547c117076b15e645850a5327d24548b1b9871d0adea452de82c",
+    "logs": [],
+    "blockNumber": 43440000,
+    "cumulativeGasUsed": "665442",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0x64cF5D4e0339af18312eFD118902296B76A75317",
+    900
+  ],
+  "numDeployments": 1,
+  "solcInputHash": "1d544f96a00f94e7a887913a2bd4bf37",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_chainlinkFeed\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_heartbeat\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"AddressZero\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InvalidPrice\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"RoundNotComplete\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"StalePrice\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"HEART_BEAT_TOLERANCE\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"chainlinkFeed\",\"outputs\":[{\"internalType\":\"contract AggregatorV3Interface\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"description\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint80\",\"name\":\"_roundId\",\"type\":\"uint80\"}],\"name\":\"getRoundData\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"roundId\",\"type\":\"uint80\"},{\"internalType\":\"int256\",\"name\":\"answer\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"startedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"updatedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint80\",\"name\":\"answeredInRound\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"heartbeat\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"latestAnswer\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"latestRoundData\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"roundId\",\"type\":\"uint80\"},{\"internalType\":\"int256\",\"name\":\"answer\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"startedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"updatedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint80\",\"name\":\"answeredInRound\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"_answer\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"_updatedAt\",\"type\":\"uint256\"}],\"name\":\"validate\",\"outputs\":[],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"version\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"Prime\",\"kind\":\"dev\",\"methods\":{\"getRoundData(uint80)\":{\"params\":{\"_roundId\":\"the requested round ID\"},\"returns\":{\"answer\":\"is the answer for the given round\",\"answeredInRound\":\"is the round ID of the round in which the answer was computed.\",\"roundId\":\"is the round ID from the aggregator for which the data was retrieved.\",\"startedAt\":\"is the timestamp when the round was started.\",\"updatedAt\":\"is the timestamp when the round last was updated.\"}},\"latestAnswer()\":{\"details\":\"supports 18 decimal token\",\"returns\":{\"price\":\"of token in decimal 8\"}},\"latestRoundData()\":{\"returns\":{\"answer\":\"is the answer for the given round\",\"answeredInRound\":\"is the round ID of the round in which the answer was computed.\",\"roundId\":\"is the round ID from the aggregator for which the data was retrieved.\",\"startedAt\":\"is the timestamp when the round was started.\",\"updatedAt\":\"is the timestamp when the round last was updated.\"}}},\"title\":\"ChainlinkAdapter Contract\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"HEART_BEAT_TOLERANCE()\":{\"notice\":\"How late since heartbeat before a price reverts\"},\"chainlinkFeed()\":{\"notice\":\"Token price feed\"},\"decimals()\":{\"notice\":\"Returns decimals of chainlink price feed for token\"},\"description()\":{\"notice\":\"Returns description of chainlink price feed for token\"},\"getRoundData(uint80)\":{\"notice\":\"Get data about a round\"},\"latestAnswer()\":{\"notice\":\"Returns USD price in quote token.\"},\"latestRoundData()\":{\"notice\":\"Returns data of latest round\"},\"version()\":{\"notice\":\"Returns version of chainlink price feed for token\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/prime/oracles/chainlink/UnvalidatedChainlinkAdapter.sol\":\"UnvalidatedChainlinkAdapter\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":1000},\"remappings\":[]},\"sources\":{\"contracts/interfaces/AggregatorV3Interface.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.12;\\n\\ninterface AggregatorV3Interface {\\n\\tfunction decimals() external view returns (uint8);\\n\\n\\tfunction description() external view returns (string memory);\\n\\n\\tfunction version() external view returns (uint256);\\n\\n\\t// getRoundData and latestRoundData should both raise \\\"No data present\\\"\\n\\t// if they do not have data to report, instead of returning unset values\\n\\t// which could be misinterpreted as actual reported values.\\n\\tfunction getRoundData(\\n\\t\\tuint80 _roundId\\n\\t)\\n\\t\\texternal\\n\\t\\tview\\n\\t\\treturns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound);\\n\\n\\tfunction latestRoundData()\\n\\t\\texternal\\n\\t\\tview\\n\\t\\treturns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound);\\n}\\n\",\"keccak256\":\"0x0a6cadd5e05492e74282965db755bc834bb468ee493ae44429c7f2cf38fb8d5f\",\"license\":\"MIT\"},\"contracts/prime/oracles/chainlink/BaseChainlinkAdapter.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.12;\\n\\nimport {AggregatorV3Interface} from \\\"../../../interfaces/AggregatorV3Interface.sol\\\";\\n\\n/// @title ChainlinkAdapter Contract\\n/// @author Prime\\ncontract BaseChainlinkAdapter is AggregatorV3Interface {\\n\\t/// @notice Token price feed\\n\\tAggregatorV3Interface public chainlinkFeed;\\n\\tuint256 public immutable heartbeat;\\n\\t/// @notice How late since heartbeat before a price reverts\\n\\tuint256 public constant HEART_BEAT_TOLERANCE = 300;\\n\\n\\terror AddressZero();\\n\\terror RoundNotComplete();\\n\\terror StalePrice();\\n\\terror InvalidPrice();\\n\\n\\t/**\\n\\t * @notice constructor\\n\\t * @param _chainlinkFeed Chainlink price feed for token.\\n\\t * @param _heartbeat heartbeat for feed\\n\\t */\\n\\tconstructor(address _chainlinkFeed, uint256 _heartbeat) {\\n\\t\\tif (_chainlinkFeed == address(0)) revert AddressZero();\\n\\t\\tchainlinkFeed = AggregatorV3Interface(_chainlinkFeed);\\n\\t\\theartbeat = _heartbeat;\\n\\t}\\n\\n\\t/**\\n\\t * @notice Returns USD price in quote token.\\n\\t * @dev supports 18 decimal token\\n\\t * @return price of token in decimal 8\\n\\t */\\n\\tfunction latestAnswer() external view virtual returns (uint256 price) {}\\n\\n\\tfunction validate(int256 _answer, uint256 _updatedAt) public view {\\n\\t\\tif (_updatedAt == 0) revert RoundNotComplete();\\n\\t\\tif (heartbeat > 0 && block.timestamp - _updatedAt >= heartbeat + HEART_BEAT_TOLERANCE) revert StalePrice();\\n\\t\\tif (_answer <= 0) revert InvalidPrice();\\n\\t}\\n\\n\\t/**\\n\\t * @notice Returns version of chainlink price feed for token\\n\\t */\\n\\tfunction version() external view returns (uint256) {\\n\\t\\treturn chainlinkFeed.version();\\n\\t}\\n\\n\\t/**\\n\\t * @notice Returns decimals of chainlink price feed for token\\n\\t */\\n\\tfunction decimals() external view returns (uint8) {\\n\\t\\treturn chainlinkFeed.decimals();\\n\\t}\\n\\n\\t/**\\n\\t * @notice Returns description of chainlink price feed for token\\n\\t */\\n\\tfunction description() external view returns (string memory) {\\n\\t\\treturn chainlinkFeed.description();\\n\\t}\\n\\n\\t/**\\n\\t * @notice Get data about a round\\n\\t * @param _roundId the requested round ID\\n\\t * @return roundId is the round ID from the aggregator for which the data was retrieved.\\n\\t * @return answer is the answer for the given round\\n\\t * @return startedAt is the timestamp when the round was started.\\n\\t * @return updatedAt is the timestamp when the round last was updated.\\n\\t * @return answeredInRound is the round ID of the round in which the answer was computed.\\n\\t */\\n\\tfunction getRoundData(\\n\\t\\tuint80 _roundId\\n\\t)\\n\\t\\texternal\\n\\t\\tview\\n\\t\\treturns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound)\\n\\t{\\n\\t\\t(roundId, answer, startedAt, updatedAt, answeredInRound) = chainlinkFeed.getRoundData(_roundId);\\n\\t}\\n\\n\\t/**\\n\\t * @notice Returns data of latest round\\n\\t * @return roundId is the round ID from the aggregator for which the data was retrieved.\\n\\t * @return answer is the answer for the given round\\n\\t * @return startedAt is the timestamp when the round was started.\\n\\t * @return updatedAt is the timestamp when the round last was updated.\\n\\t * @return answeredInRound is the round ID of the round in which the answer was computed.\\n\\t */\\n\\tfunction latestRoundData()\\n\\t\\tpublic\\n\\t\\tview\\n\\t\\treturns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound)\\n\\t{\\n\\t\\t(roundId, answer, startedAt, updatedAt, answeredInRound) = chainlinkFeed.latestRoundData();\\n\\t}\\n}\\n\",\"keccak256\":\"0x8f5e716dd37e9de1a7a0a236bc6856ad0124051b710b7b3c2ee5d1f9e71ee4a5\",\"license\":\"MIT\"},\"contracts/prime/oracles/chainlink/UnvalidatedChainlinkAdapter.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.12;\\n\\nimport {AggregatorV3Interface} from \\\"../../../interfaces/AggregatorV3Interface.sol\\\";\\nimport {BaseChainlinkAdapter} from \\\"./BaseChainlinkAdapter.sol\\\";\\n\\n/// @title ChainlinkAdapter Contract\\n/// @author Prime\\ncontract UnvalidatedChainlinkAdapter is BaseChainlinkAdapter {\\n\\tconstructor(address _chainlinkFeed, uint256 _heartbeat) BaseChainlinkAdapter(_chainlinkFeed, _heartbeat) {}\\n\\n\\t/**\\n\\t * @notice Returns USD price in quote token.\\n\\t * @dev supports 18 decimal token\\n\\t * @return price of token in decimal 8\\n\\t */\\n\\tfunction latestAnswer() external view override returns (uint256 price) {\\n\\t\\t(, int256 answer, , , ) = chainlinkFeed.latestRoundData();\\n\\t\\treturn uint256(answer);\\n\\t}\\n}\\n\",\"keccak256\":\"0x21690e2428d2f53c62ab22b5d12108fe55ec2722ee4d2430e1483b12370bab47\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x60a060405234801561001057600080fd5b506040516109ae3803806109ae83398101604081905261002f91610084565b81816001600160a01b03821661005857604051639fabe1c160e01b815260040160405180910390fd5b600080546001600160a01b0319166001600160a01b039390931692909217909155608052506100be9050565b6000806040838503121561009757600080fd5b82516001600160a01b03811681146100ae57600080fd5b6020939093015192949293505050565b6080516108c86100e66000396000818160e7015281816104cf01526104fe01526108c86000f3fe608060405234801561001057600080fd5b50600436106100be5760003560e01c80637dbdf1f5116100765780639a6fc8f51161005b5780639a6fc8f514610170578063bb33f085146101ba578063feaf968c146101cf57600080fd5b80637dbdf1f51461013c5780638d1760861461016757600080fd5b806350d25bcd116100a757806350d25bcd1461011757806354fd4d501461011f5780637284e4161461012757600080fd5b8063313ce567146100c35780633defb962146100e2575b600080fd5b6100cb6101d7565b60405160ff90911681526020015b60405180910390f35b6101097f000000000000000000000000000000000000000000000000000000000000000081565b6040519081526020016100d9565b610109610254565b6101096102e6565b61012f61035e565b6040516100d99190610662565b60005461014f906001600160a01b031681565b6040516001600160a01b0390911681526020016100d9565b61010961012c81565b61018361017e3660046106b0565b6103e8565b6040805169ffffffffffffffffffff968716815260208101959095528401929092526060830152909116608082015260a0016100d9565b6101cd6101c83660046106d4565b610494565b005b6101836105a3565b60008060009054906101000a90046001600160a01b03166001600160a01b031663313ce5676040518163ffffffff1660e01b8152600401602060405180830381865afa15801561022b573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061024f91906106f6565b905090565b60008054604080517ffeaf968c000000000000000000000000000000000000000000000000000000008152905183926001600160a01b03169163feaf968c9160048083019260a09291908290030181865afa1580156102b7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906102db9190610719565b509195945050505050565b60008060009054906101000a90046001600160a01b03166001600160a01b03166354fd4d506040518163ffffffff1660e01b8152600401602060405180830381865afa15801561033a573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061024f9190610771565b60008054604080517f7284e41600000000000000000000000000000000000000000000000000000000815290516060936001600160a01b0390931692637284e41692600480820193918290030181865afa1580156103c0573d6000803e3d6000fd5b505050506040513d6000823e601f3d908101601f1916820160405261024f91908101906107a0565b600080546040517f9a6fc8f500000000000000000000000000000000000000000000000000000000815269ffffffffffffffffffff8416600482015282918291829182916001600160a01b0390911690639a6fc8f59060240160a060405180830381865afa15801561045e573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906104829190610719565b939a9299509097509550909350915050565b806104cb576040517f159c98a000000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b60007f000000000000000000000000000000000000000000000000000000000000000011801561052f575061052261012c7f0000000000000000000000000000000000000000000000000000000000000000610863565b61052c824261087b565b10155b15610566576040517f19abf40e00000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b6000821361059f576040517ebfc92100000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b5050565b60008060008060008060009054906101000a90046001600160a01b03166001600160a01b031663feaf968c6040518163ffffffff1660e01b815260040160a060405180830381865afa1580156105fd573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906106219190610719565b939992985090965094509092509050565b60005b8381101561064d578181015183820152602001610635565b8381111561065c576000848401525b50505050565b6020815260008251806020840152610681816040850160208701610632565b601f01601f19169190910160400192915050565b69ffffffffffffffffffff811681146106ad57600080fd5b50565b6000602082840312156106c257600080fd5b81356106cd81610695565b9392505050565b600080604083850312156106e757600080fd5b50508035926020909101359150565b60006020828403121561070857600080fd5b815160ff811681146106cd57600080fd5b600080600080600060a0868803121561073157600080fd5b855161073c81610695565b80955050602086015193506040860151925060608601519150608086015161076381610695565b809150509295509295909350565b60006020828403121561078357600080fd5b5051919050565b634e487b7160e01b600052604160045260246000fd5b6000602082840312156107b257600080fd5b815167ffffffffffffffff808211156107ca57600080fd5b818401915084601f8301126107de57600080fd5b8151818111156107f0576107f061078a565b604051601f8201601f19908116603f011681019083821181831017156108185761081861078a565b8160405282815287602084870101111561083157600080fd5b610842836020830160208801610632565b979650505050505050565b634e487b7160e01b600052601160045260246000fd5b600082198211156108765761087661084d565b500190565b60008282101561088d5761088d61084d565b50039056fea2646970667358221220c259e5a101ec9e45882ba361ef748ec3b274f393b72f47a2d6c8298824f43f9764736f6c634300080c0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100be5760003560e01c80637dbdf1f5116100765780639a6fc8f51161005b5780639a6fc8f514610170578063bb33f085146101ba578063feaf968c146101cf57600080fd5b80637dbdf1f51461013c5780638d1760861461016757600080fd5b806350d25bcd116100a757806350d25bcd1461011757806354fd4d501461011f5780637284e4161461012757600080fd5b8063313ce567146100c35780633defb962146100e2575b600080fd5b6100cb6101d7565b60405160ff90911681526020015b60405180910390f35b6101097f000000000000000000000000000000000000000000000000000000000000000081565b6040519081526020016100d9565b610109610254565b6101096102e6565b61012f61035e565b6040516100d99190610662565b60005461014f906001600160a01b031681565b6040516001600160a01b0390911681526020016100d9565b61010961012c81565b61018361017e3660046106b0565b6103e8565b6040805169ffffffffffffffffffff968716815260208101959095528401929092526060830152909116608082015260a0016100d9565b6101cd6101c83660046106d4565b610494565b005b6101836105a3565b60008060009054906101000a90046001600160a01b03166001600160a01b031663313ce5676040518163ffffffff1660e01b8152600401602060405180830381865afa15801561022b573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061024f91906106f6565b905090565b60008054604080517ffeaf968c000000000000000000000000000000000000000000000000000000008152905183926001600160a01b03169163feaf968c9160048083019260a09291908290030181865afa1580156102b7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906102db9190610719565b509195945050505050565b60008060009054906101000a90046001600160a01b03166001600160a01b03166354fd4d506040518163ffffffff1660e01b8152600401602060405180830381865afa15801561033a573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061024f9190610771565b60008054604080517f7284e41600000000000000000000000000000000000000000000000000000000815290516060936001600160a01b0390931692637284e41692600480820193918290030181865afa1580156103c0573d6000803e3d6000fd5b505050506040513d6000823e601f3d908101601f1916820160405261024f91908101906107a0565b600080546040517f9a6fc8f500000000000000000000000000000000000000000000000000000000815269ffffffffffffffffffff8416600482015282918291829182916001600160a01b0390911690639a6fc8f59060240160a060405180830381865afa15801561045e573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906104829190610719565b939a9299509097509550909350915050565b806104cb576040517f159c98a000000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b60007f000000000000000000000000000000000000000000000000000000000000000011801561052f575061052261012c7f0000000000000000000000000000000000000000000000000000000000000000610863565b61052c824261087b565b10155b15610566576040517f19abf40e00000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b6000821361059f576040517ebfc92100000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b5050565b60008060008060008060009054906101000a90046001600160a01b03166001600160a01b031663feaf968c6040518163ffffffff1660e01b815260040160a060405180830381865afa1580156105fd573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906106219190610719565b939992985090965094509092509050565b60005b8381101561064d578181015183820152602001610635565b8381111561065c576000848401525b50505050565b6020815260008251806020840152610681816040850160208701610632565b601f01601f19169190910160400192915050565b69ffffffffffffffffffff811681146106ad57600080fd5b50565b6000602082840312156106c257600080fd5b81356106cd81610695565b9392505050565b600080604083850312156106e757600080fd5b50508035926020909101359150565b60006020828403121561070857600080fd5b815160ff811681146106cd57600080fd5b600080600080600060a0868803121561073157600080fd5b855161073c81610695565b80955050602086015193506040860151925060608601519150608086015161076381610695565b809150509295509295909350565b60006020828403121561078357600080fd5b5051919050565b634e487b7160e01b600052604160045260246000fd5b6000602082840312156107b257600080fd5b815167ffffffffffffffff808211156107ca57600080fd5b818401915084601f8301126107de57600080fd5b8151818111156107f0576107f061078a565b604051601f8201601f19908116603f011681019083821181831017156108185761081861078a565b8160405282815287602084870101111561083157600080fd5b610842836020830160208801610632565b979650505050505050565b634e487b7160e01b600052601160045260246000fd5b600082198211156108765761087661084d565b500190565b60008282101561088d5761088d61084d565b50039056fea2646970667358221220c259e5a101ec9e45882ba361ef748ec3b274f393b72f47a2d6c8298824f43f9764736f6c634300080c0033",
+  "devdoc": {
+    "author": "Prime",
+    "kind": "dev",
+    "methods": {
+      "getRoundData(uint80)": {
+        "params": {
+          "_roundId": "the requested round ID"
+        },
+        "returns": {
+          "answer": "is the answer for the given round",
+          "answeredInRound": "is the round ID of the round in which the answer was computed.",
+          "roundId": "is the round ID from the aggregator for which the data was retrieved.",
+          "startedAt": "is the timestamp when the round was started.",
+          "updatedAt": "is the timestamp when the round last was updated."
+        }
+      },
+      "latestAnswer()": {
+        "details": "supports 18 decimal token",
+        "returns": {
+          "price": "of token in decimal 8"
+        }
+      },
+      "latestRoundData()": {
+        "returns": {
+          "answer": "is the answer for the given round",
+          "answeredInRound": "is the round ID of the round in which the answer was computed.",
+          "roundId": "is the round ID from the aggregator for which the data was retrieved.",
+          "startedAt": "is the timestamp when the round was started.",
+          "updatedAt": "is the timestamp when the round last was updated."
+        }
+      }
+    },
+    "title": "ChainlinkAdapter Contract",
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "HEART_BEAT_TOLERANCE()": {
+        "notice": "How late since heartbeat before a price reverts"
+      },
+      "chainlinkFeed()": {
+        "notice": "Token price feed"
+      },
+      "decimals()": {
+        "notice": "Returns decimals of chainlink price feed for token"
+      },
+      "description()": {
+        "notice": "Returns description of chainlink price feed for token"
+      },
+      "getRoundData(uint80)": {
+        "notice": "Get data about a round"
+      },
+      "latestAnswer()": {
+        "notice": "Returns USD price in quote token."
+      },
+      "latestRoundData()": {
+        "notice": "Returns data of latest round"
+      },
+      "version()": {
+        "notice": "Returns version of chainlink price feed for token"
+      }
+    },
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 45142,
+        "contract": "contracts/prime/oracles/chainlink/UnvalidatedChainlinkAdapter.sol:UnvalidatedChainlinkAdapter",
+        "label": "chainlinkFeed",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_contract(AggregatorV3Interface)15745"
+      }
+    ],
+    "types": {
+      "t_contract(AggregatorV3Interface)15745": {
+        "encoding": "inplace",
+        "label": "contract AggregatorV3Interface",
+        "numberOfBytes": "20"
+      }
+    }
+  }
+}

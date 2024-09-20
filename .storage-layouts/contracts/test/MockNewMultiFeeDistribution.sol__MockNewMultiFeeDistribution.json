@@ -1,0 +1,582 @@
+{
+  "storage": [
+    {
+      "astId": 3620,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_uint8"
+    },
+    {
+      "astId": 3623,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 4280,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 3803,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_paused",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_bool"
+    },
+    {
+      "astId": 3908,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "52",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 3492,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_address"
+    },
+    {
+      "astId": 3612,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 50276,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_priceProvider",
+      "offset": 0,
+      "slot": "151",
+      "type": "t_address"
+    },
+    {
+      "astId": 50294,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "burn",
+      "offset": 0,
+      "slot": "152",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 50297,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "rewardsDuration",
+      "offset": 0,
+      "slot": "153",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 50300,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "rewardsLookback",
+      "offset": 0,
+      "slot": "154",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 50307,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "defaultLockDuration",
+      "offset": 0,
+      "slot": "155",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 50310,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "vestDuration",
+      "offset": 0,
+      "slot": "156",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 50313,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "rewardConverter",
+      "offset": 0,
+      "slot": "157",
+      "type": "t_address"
+    },
+    {
+      "astId": 50317,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "middleFeeDistribution",
+      "offset": 0,
+      "slot": "158",
+      "type": "t_contract(IMiddleFeeDistribution)17844"
+    },
+    {
+      "astId": 50321,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "incentivesController",
+      "offset": 0,
+      "slot": "159",
+      "type": "t_contract(IChefIncentivesController)16341"
+    },
+    {
+      "astId": 50325,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "prntToken",
+      "offset": 0,
+      "slot": "160",
+      "type": "t_contract(IMintableToken)17873"
+    },
+    {
+      "astId": 50328,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "stakingToken",
+      "offset": 0,
+      "slot": "161",
+      "type": "t_address"
+    },
+    {
+      "astId": 50330,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_lockZap",
+      "offset": 0,
+      "slot": "162",
+      "type": "t_address"
+    },
+    {
+      "astId": 50335,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_balances",
+      "offset": 0,
+      "slot": "163",
+      "type": "t_mapping(t_address,t_struct(Balances)19149_storage)"
+    },
+    {
+      "astId": 50341,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_userLocks",
+      "offset": 0,
+      "slot": "164",
+      "type": "t_mapping(t_address,t_array(t_struct(LockedBalance)19120_storage)dyn_storage)"
+    },
+    {
+      "astId": 50347,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_userEarnings",
+      "offset": 0,
+      "slot": "165",
+      "type": "t_mapping(t_address,t_array(t_struct(LockedBalance)19120_storage)dyn_storage)"
+    },
+    {
+      "astId": 50351,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "autocompoundEnabled",
+      "offset": 0,
+      "slot": "166",
+      "type": "t_mapping(t_address,t_bool)"
+    },
+    {
+      "astId": 50355,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "lastAutocompound",
+      "offset": 0,
+      "slot": "167",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 50358,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "lockedSupply",
+      "offset": 0,
+      "slot": "168",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 50361,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "lockedSupplyWithMultiplier",
+      "offset": 0,
+      "slot": "169",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 50364,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_lockPeriod",
+      "offset": 0,
+      "slot": "170",
+      "type": "t_array(t_uint256)dyn_storage"
+    },
+    {
+      "astId": 50367,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "_rewardMultipliers",
+      "offset": 0,
+      "slot": "171",
+      "type": "t_array(t_uint256)dyn_storage"
+    },
+    {
+      "astId": 50371,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "rewardTokens",
+      "offset": 0,
+      "slot": "172",
+      "type": "t_array(t_address)dyn_storage"
+    },
+    {
+      "astId": 50377,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "rewardData",
+      "offset": 0,
+      "slot": "173",
+      "type": "t_mapping(t_address,t_struct(Reward)19138_storage)"
+    },
+    {
+      "astId": 50384,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "userRewardPerTokenPaid",
+      "offset": 0,
+      "slot": "174",
+      "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))"
+    },
+    {
+      "astId": 50391,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "rewards",
+      "offset": 0,
+      "slot": "175",
+      "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))"
+    },
+    {
+      "astId": 50394,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "daoTreasury",
+      "offset": 0,
+      "slot": "176",
+      "type": "t_address"
+    },
+    {
+      "astId": 50397,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "starfleetTreasury",
+      "offset": 0,
+      "slot": "177",
+      "type": "t_address"
+    },
+    {
+      "astId": 50402,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "minters",
+      "offset": 0,
+      "slot": "178",
+      "type": "t_mapping(t_address,t_bool)"
+    },
+    {
+      "astId": 50406,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "autoRelockDisabled",
+      "offset": 0,
+      "slot": "179",
+      "type": "t_mapping(t_address,t_bool)"
+    },
+    {
+      "astId": 50410,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "defaultLockIndex",
+      "offset": 0,
+      "slot": "180",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 50413,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "mintersAreSet",
+      "offset": 0,
+      "slot": "181",
+      "type": "t_bool"
+    },
+    {
+      "astId": 50416,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "userlist",
+      "offset": 1,
+      "slot": "181",
+      "type": "t_address"
+    },
+    {
+      "astId": 50421,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "lastClaimTime",
+      "offset": 0,
+      "slot": "182",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 50424,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "bountyManager",
+      "offset": 0,
+      "slot": "183",
+      "type": "t_address"
+    },
+    {
+      "astId": 50429,
+      "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+      "label": "userSlippage",
+      "offset": 0,
+      "slot": "184",
+      "type": "t_mapping(t_address,t_uint256)"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_address)dyn_storage": {
+      "base": "t_address",
+      "encoding": "dynamic_array",
+      "label": "address[]",
+      "numberOfBytes": "32"
+    },
+    "t_array(t_struct(LockedBalance)19120_storage)dyn_storage": {
+      "base": "t_struct(LockedBalance)19120_storage",
+      "encoding": "dynamic_array",
+      "label": "struct LockedBalance[]",
+      "numberOfBytes": "32"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_array(t_uint256)dyn_storage": {
+      "base": "t_uint256",
+      "encoding": "dynamic_array",
+      "label": "uint256[]",
+      "numberOfBytes": "32"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IChefIncentivesController)16341": {
+      "encoding": "inplace",
+      "label": "contract IChefIncentivesController",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IMiddleFeeDistribution)17844": {
+      "encoding": "inplace",
+      "label": "contract IMiddleFeeDistribution",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IMintableToken)17873": {
+      "encoding": "inplace",
+      "label": "contract IMintableToken",
+      "numberOfBytes": "20"
+    },
+    "t_mapping(t_address,t_array(t_struct(LockedBalance)19120_storage)dyn_storage)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => struct LockedBalance[])",
+      "numberOfBytes": "32",
+      "value": "t_array(t_struct(LockedBalance)19120_storage)dyn_storage"
+    },
+    "t_mapping(t_address,t_bool)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => bool)",
+      "numberOfBytes": "32",
+      "value": "t_bool"
+    },
+    "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => mapping(address => uint256))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_address,t_uint256)"
+    },
+    "t_mapping(t_address,t_struct(Balances)19149_storage)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => struct Balances)",
+      "numberOfBytes": "32",
+      "value": "t_struct(Balances)19149_storage"
+    },
+    "t_mapping(t_address,t_struct(Reward)19138_storage)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => struct Reward)",
+      "numberOfBytes": "32",
+      "value": "t_struct(Reward)19138_storage"
+    },
+    "t_mapping(t_address,t_uint256)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => uint256)",
+      "numberOfBytes": "32",
+      "value": "t_uint256"
+    },
+    "t_struct(Balances)19149_storage": {
+      "encoding": "inplace",
+      "label": "struct Balances",
+      "members": [
+        {
+          "astId": 19140,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "total",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19142,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "unlocked",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19144,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "locked",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19146,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "lockedWithMultiplier",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19148,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "earned",
+          "offset": 0,
+          "slot": "4",
+          "type": "t_uint256"
+        }
+      ],
+      "numberOfBytes": "160"
+    },
+    "t_struct(LockedBalance)19120_storage": {
+      "encoding": "inplace",
+      "label": "struct LockedBalance",
+      "members": [
+        {
+          "astId": 19113,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "amount",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19115,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "unlockTime",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19117,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "multiplier",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19119,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "duration",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_uint256"
+        }
+      ],
+      "numberOfBytes": "128"
+    },
+    "t_struct(Reward)19138_storage": {
+      "encoding": "inplace",
+      "label": "struct Reward",
+      "members": [
+        {
+          "astId": 19129,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "periodFinish",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19131,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "rewardPerSecond",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19133,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "lastUpdateTime",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19135,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "rewardPerTokenStored",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 19137,
+          "contract": "contracts/test/MockNewMultiFeeDistribution.sol:MockNewMultiFeeDistribution",
+          "label": "balance",
+          "offset": 0,
+          "slot": "4",
+          "type": "t_uint256"
+        }
+      ],
+      "numberOfBytes": "160"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}

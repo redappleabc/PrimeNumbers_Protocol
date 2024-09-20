@@ -1,0 +1,74 @@
+{
+  "storage": [
+    {
+      "astId": 62319,
+      "contract": "contracts/test/oracle/MockSequencerAggregator.sol:MockSequencerAggregator",
+      "label": "aggregator",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_address"
+    },
+    {
+      "astId": 62321,
+      "contract": "contracts/test/oracle/MockSequencerAggregator.sol:MockSequencerAggregator",
+      "label": "roundId",
+      "offset": 20,
+      "slot": "0",
+      "type": "t_uint80"
+    },
+    {
+      "astId": 62323,
+      "contract": "contracts/test/oracle/MockSequencerAggregator.sol:MockSequencerAggregator",
+      "label": "answer",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_int256"
+    },
+    {
+      "astId": 62325,
+      "contract": "contracts/test/oracle/MockSequencerAggregator.sol:MockSequencerAggregator",
+      "label": "startedAt",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 62327,
+      "contract": "contracts/test/oracle/MockSequencerAggregator.sol:MockSequencerAggregator",
+      "label": "updatedAt",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 62329,
+      "contract": "contracts/test/oracle/MockSequencerAggregator.sol:MockSequencerAggregator",
+      "label": "answeredInRound",
+      "offset": 0,
+      "slot": "4",
+      "type": "t_uint80"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_int256": {
+      "encoding": "inplace",
+      "label": "int256",
+      "numberOfBytes": "32"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint80": {
+      "encoding": "inplace",
+      "label": "uint80",
+      "numberOfBytes": "10"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "storage": [
+    {
+      "astId": 4289,
+      "contract": "contracts/prime/accessories/LeveragerNoUpgrade.sol:LeveragerNoUpgrade",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_address"
+    },
+    {
+      "astId": 40316,
+      "contract": "contracts/prime/accessories/LeveragerNoUpgrade.sol:LeveragerNoUpgrade",
+      "label": "lendingPool",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_contract(ILendingPool)17095"
+    },
+    {
+      "astId": 40320,
+      "contract": "contracts/prime/accessories/LeveragerNoUpgrade.sol:LeveragerNoUpgrade",
+      "label": "eligibilityDataProvider",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_contract(IEligibilityDataProvider)16530"
+    },
+    {
+      "astId": 40324,
+      "contract": "contracts/prime/accessories/LeveragerNoUpgrade.sol:LeveragerNoUpgrade",
+      "label": "lockZap",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_contract(ILockZap)17775"
+    },
+    {
+      "astId": 40328,
+      "contract": "contracts/prime/accessories/LeveragerNoUpgrade.sol:LeveragerNoUpgrade",
+      "label": "weth",
+      "offset": 0,
+      "slot": "4",
+      "type": "t_contract(IWETH)19066"
+    },
+    {
+      "astId": 40332,
+      "contract": "contracts/prime/accessories/LeveragerNoUpgrade.sol:LeveragerNoUpgrade",
+      "label": "aaveOracle",
+      "offset": 0,
+      "slot": "5",
+      "type": "t_contract(IAaveOracle)16036"
+    },
+    {
+      "astId": 40335,
+      "contract": "contracts/prime/accessories/LeveragerNoUpgrade.sol:LeveragerNoUpgrade",
+      "label": "feePercent",
+      "offset": 0,
+      "slot": "6",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 40338,
+      "contract": "contracts/prime/accessories/LeveragerNoUpgrade.sol:LeveragerNoUpgrade",
+      "label": "treasury",
+      "offset": 0,
+      "slot": "7",
+      "type": "t_address"
+    },
+    {
+      "astId": 40342,
+      "contract": "contracts/prime/accessories/LeveragerNoUpgrade.sol:LeveragerNoUpgrade",
+      "label": "cic",
+      "offset": 0,
+      "slot": "8",
+      "type": "t_contract(IChefIncentivesController)16341"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IAaveOracle)16036": {
+      "encoding": "inplace",
+      "label": "contract IAaveOracle",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IChefIncentivesController)16341": {
+      "encoding": "inplace",
+      "label": "contract IChefIncentivesController",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IEligibilityDataProvider)16530": {
+      "encoding": "inplace",
+      "label": "contract IEligibilityDataProvider",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ILendingPool)17095": {
+      "encoding": "inplace",
+      "label": "contract ILendingPool",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ILockZap)17775": {
+      "encoding": "inplace",
+      "label": "contract ILockZap",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IWETH)19066": {
+      "encoding": "inplace",
+      "label": "contract IWETH",
+      "numberOfBytes": "20"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "storage": [
+    {
+      "astId": 4289,
+      "contract": "contracts/prime/token/Migration.sol:Migration",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_address"
+    },
+    {
+      "astId": 4412,
+      "contract": "contracts/prime/token/Migration.sol:Migration",
+      "label": "_paused",
+      "offset": 20,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 54444,
+      "contract": "contracts/prime/token/Migration.sol:Migration",
+      "label": "tokenV1",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_contract(ERC20)5154"
+    },
+    {
+      "astId": 54448,
+      "contract": "contracts/prime/token/Migration.sol:Migration",
+      "label": "tokenV2",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_contract(ERC20)5154"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(ERC20)5154": {
+      "encoding": "inplace",
+      "label": "contract ERC20",
+      "numberOfBytes": "20"
+    }
+  }
+}

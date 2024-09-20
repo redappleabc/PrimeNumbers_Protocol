@@ -1,0 +1,207 @@
+{
+  "storage": [
+    {
+      "astId": 3620,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "_initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_uint8"
+    },
+    {
+      "astId": 3623,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "_initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 4280,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 3492,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_address"
+    },
+    {
+      "astId": 3612,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "52",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 44035,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "lendingPool",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_contract(ILendingPool)17095"
+    },
+    {
+      "astId": 44039,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "chef",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_contract(IChefIncentivesController)16341"
+    },
+    {
+      "astId": 44043,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "middleFeeDistribution",
+      "offset": 0,
+      "slot": "103",
+      "type": "t_contract(IMiddleFeeDistribution)17844"
+    },
+    {
+      "astId": 44047,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "priceProvider",
+      "offset": 0,
+      "slot": "104",
+      "type": "t_contract(IPriceProvider)18252"
+    },
+    {
+      "astId": 44050,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "requiredDepositRatio",
+      "offset": 0,
+      "slot": "105",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 44053,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "priceToleranceRatio",
+      "offset": 0,
+      "slot": "106",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 44056,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "lpToken",
+      "offset": 0,
+      "slot": "107",
+      "type": "t_address"
+    },
+    {
+      "astId": 44061,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "lastEligibleStatus",
+      "offset": 0,
+      "slot": "108",
+      "type": "t_mapping(t_address,t_bool)"
+    },
+    {
+      "astId": 44066,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "disqualifiedTime",
+      "offset": 0,
+      "slot": "109",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 44071,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "eligibleDeposits",
+      "offset": 0,
+      "slot": "110",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 44077,
+      "contract": "contracts/prime/eligibility/EligibilityDataProvider.sol:EligibilityDataProvider",
+      "label": "userDeposits",
+      "offset": 0,
+      "slot": "111",
+      "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IChefIncentivesController)16341": {
+      "encoding": "inplace",
+      "label": "contract IChefIncentivesController",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ILendingPool)17095": {
+      "encoding": "inplace",
+      "label": "contract ILendingPool",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IMiddleFeeDistribution)17844": {
+      "encoding": "inplace",
+      "label": "contract IMiddleFeeDistribution",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IPriceProvider)18252": {
+      "encoding": "inplace",
+      "label": "contract IPriceProvider",
+      "numberOfBytes": "20"
+    },
+    "t_mapping(t_address,t_bool)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => bool)",
+      "numberOfBytes": "32",
+      "value": "t_bool"
+    },
+    "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => mapping(address => uint256))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_address,t_uint256)"
+    },
+    "t_mapping(t_address,t_uint256)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => uint256)",
+      "numberOfBytes": "32",
+      "value": "t_uint256"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}

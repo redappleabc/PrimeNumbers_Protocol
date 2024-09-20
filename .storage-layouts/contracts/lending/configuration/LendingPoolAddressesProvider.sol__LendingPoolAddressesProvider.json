@@ -1,0 +1,60 @@
+{
+  "storage": [
+    {
+      "astId": 4289,
+      "contract": "contracts/lending/configuration/LendingPoolAddressesProvider.sol:LendingPoolAddressesProvider",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_address"
+    },
+    {
+      "astId": 24088,
+      "contract": "contracts/lending/configuration/LendingPoolAddressesProvider.sol:LendingPoolAddressesProvider",
+      "label": "_marketId",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_string_storage"
+    },
+    {
+      "astId": 24092,
+      "contract": "contracts/lending/configuration/LendingPoolAddressesProvider.sol:LendingPoolAddressesProvider",
+      "label": "_addresses",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_mapping(t_bytes32,t_address)"
+    },
+    {
+      "astId": 24094,
+      "contract": "contracts/lending/configuration/LendingPoolAddressesProvider.sol:LendingPoolAddressesProvider",
+      "label": "_liquidationFeeTo",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_address"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_bytes32": {
+      "encoding": "inplace",
+      "label": "bytes32",
+      "numberOfBytes": "32"
+    },
+    "t_mapping(t_bytes32,t_address)": {
+      "encoding": "mapping",
+      "key": "t_bytes32",
+      "label": "mapping(bytes32 => address)",
+      "numberOfBytes": "32",
+      "value": "t_address"
+    },
+    "t_string_storage": {
+      "encoding": "bytes",
+      "label": "string",
+      "numberOfBytes": "32"
+    }
+  }
+}

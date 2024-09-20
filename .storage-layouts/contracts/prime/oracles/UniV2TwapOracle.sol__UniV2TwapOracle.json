@@ -1,0 +1,236 @@
+{
+  "storage": [
+    {
+      "astId": 11663,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 11666,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 11733,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "______gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 11656,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 11878,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_address"
+    },
+    {
+      "astId": 11983,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 44968,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "token",
+      "offset": 0,
+      "slot": "151",
+      "type": "t_address"
+    },
+    {
+      "astId": 44971,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "ethChainlinkFeed",
+      "offset": 0,
+      "slot": "152",
+      "type": "t_address"
+    },
+    {
+      "astId": 44974,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "fallbackEnabled",
+      "offset": 20,
+      "slot": "152",
+      "type": "t_bool"
+    },
+    {
+      "astId": 44978,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "fallbackOracle",
+      "offset": 0,
+      "slot": "153",
+      "type": "t_contract(IBaseOracle)16185"
+    },
+    {
+      "astId": 45676,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "period",
+      "offset": 0,
+      "slot": "154",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 45679,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "consultLeniency",
+      "offset": 0,
+      "slot": "155",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 45682,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "allowStaleConsults",
+      "offset": 0,
+      "slot": "156",
+      "type": "t_bool"
+    },
+    {
+      "astId": 45686,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "pair",
+      "offset": 1,
+      "slot": "156",
+      "type": "t_contract(IUniswapV2Pair)8649"
+    },
+    {
+      "astId": 45689,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "token0",
+      "offset": 0,
+      "slot": "157",
+      "type": "t_address"
+    },
+    {
+      "astId": 45692,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "token1",
+      "offset": 0,
+      "slot": "158",
+      "type": "t_address"
+    },
+    {
+      "astId": 45695,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "price0CumulativeLast",
+      "offset": 0,
+      "slot": "159",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 45698,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "price1CumulativeLast",
+      "offset": 0,
+      "slot": "160",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 45701,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "blockTimestampLast",
+      "offset": 0,
+      "slot": "161",
+      "type": "t_uint32"
+    },
+    {
+      "astId": 45705,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "price0Average",
+      "offset": 0,
+      "slot": "162",
+      "type": "t_struct(uq112x112)12697_storage"
+    },
+    {
+      "astId": 45709,
+      "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+      "label": "price1Average",
+      "offset": 0,
+      "slot": "163",
+      "type": "t_struct(uq112x112)12697_storage"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IBaseOracle)16185": {
+      "encoding": "inplace",
+      "label": "contract IBaseOracle",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IUniswapV2Pair)8649": {
+      "encoding": "inplace",
+      "label": "contract IUniswapV2Pair",
+      "numberOfBytes": "20"
+    },
+    "t_struct(uq112x112)12697_storage": {
+      "encoding": "inplace",
+      "label": "struct FixedPoint.uq112x112",
+      "members": [
+        {
+          "astId": 12696,
+          "contract": "contracts/prime/oracles/UniV2TwapOracle.sol:UniV2TwapOracle",
+          "label": "_x",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint224"
+        }
+      ],
+      "numberOfBytes": "32"
+    },
+    "t_uint224": {
+      "encoding": "inplace",
+      "label": "uint224",
+      "numberOfBytes": "28"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint32": {
+      "encoding": "inplace",
+      "label": "uint32",
+      "numberOfBytes": "4"
+    }
+  }
+}

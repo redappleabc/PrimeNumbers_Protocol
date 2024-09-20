@@ -1,0 +1,20 @@
+module.exports = {
+	skipFiles: [
+		'dependencies/',
+		'flashloan/',
+		'interfaces/',
+		'deployments/',
+		'libraries/',
+		'misc/',
+		'mocks/',
+		'oft/layerzero/',
+		'protocol/',
+		'test/',
+		'lock/',
+		'staking/MerkleDistributor.sol',
+		'uniswap/',
+		'lending',
+		'prime/accessories/Multicall.sol',
+	],
+	configureYulOptimizer: true,
+};

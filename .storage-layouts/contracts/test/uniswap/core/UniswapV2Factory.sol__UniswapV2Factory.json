@@ -1,0 +1,63 @@
+{
+  "storage": [
+    {
+      "astId": 395,
+      "contract": "contracts/test/uniswap/core/UniswapV2Factory.sol:UniswapV2Factory",
+      "label": "feeTo",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_address"
+    },
+    {
+      "astId": 397,
+      "contract": "contracts/test/uniswap/core/UniswapV2Factory.sol:UniswapV2Factory",
+      "label": "feeToSetter",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_address"
+    },
+    {
+      "astId": 403,
+      "contract": "contracts/test/uniswap/core/UniswapV2Factory.sol:UniswapV2Factory",
+      "label": "getPair",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_mapping(t_address,t_mapping(t_address,t_address))"
+    },
+    {
+      "astId": 406,
+      "contract": "contracts/test/uniswap/core/UniswapV2Factory.sol:UniswapV2Factory",
+      "label": "allPairs",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_array(t_address)dyn_storage"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_address)dyn_storage": {
+      "base": "t_address",
+      "encoding": "dynamic_array",
+      "label": "address[]",
+      "numberOfBytes": "32"
+    },
+    "t_mapping(t_address,t_address)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => address)",
+      "numberOfBytes": "32",
+      "value": "t_address"
+    },
+    "t_mapping(t_address,t_mapping(t_address,t_address))": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => mapping(address => address))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_address,t_address)"
+    }
+  }
+}

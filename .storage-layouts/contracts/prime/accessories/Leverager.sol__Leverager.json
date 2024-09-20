@@ -1,0 +1,172 @@
+{
+  "storage": [
+    {
+      "astId": 3620,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "_initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_uint8"
+    },
+    {
+      "astId": 3623,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "_initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 4280,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 3492,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_address"
+    },
+    {
+      "astId": 3612,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "52",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 38827,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "lendingPool",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_contract(ILendingPool)17095"
+    },
+    {
+      "astId": 38831,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "eligibilityDataProvider",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_contract(IEligibilityDataProvider)16530"
+    },
+    {
+      "astId": 38835,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "lockZap",
+      "offset": 0,
+      "slot": "103",
+      "type": "t_contract(ILockZap)17775"
+    },
+    {
+      "astId": 38839,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "weth",
+      "offset": 0,
+      "slot": "104",
+      "type": "t_contract(IWETH)19066"
+    },
+    {
+      "astId": 38843,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "aaveOracle",
+      "offset": 0,
+      "slot": "105",
+      "type": "t_contract(IAaveOracle)16036"
+    },
+    {
+      "astId": 38846,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "feePercent",
+      "offset": 0,
+      "slot": "106",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 38849,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "treasury",
+      "offset": 0,
+      "slot": "107",
+      "type": "t_address"
+    },
+    {
+      "astId": 38853,
+      "contract": "contracts/prime/accessories/Leverager.sol:Leverager",
+      "label": "cic",
+      "offset": 0,
+      "slot": "108",
+      "type": "t_contract(IChefIncentivesController)16341"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IAaveOracle)16036": {
+      "encoding": "inplace",
+      "label": "contract IAaveOracle",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IChefIncentivesController)16341": {
+      "encoding": "inplace",
+      "label": "contract IChefIncentivesController",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IEligibilityDataProvider)16530": {
+      "encoding": "inplace",
+      "label": "contract IEligibilityDataProvider",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ILendingPool)17095": {
+      "encoding": "inplace",
+      "label": "contract ILendingPool",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ILockZap)17775": {
+      "encoding": "inplace",
+      "label": "contract ILockZap",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IWETH)19066": {
+      "encoding": "inplace",
+      "label": "contract IWETH",
+      "numberOfBytes": "20"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}
